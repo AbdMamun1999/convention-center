@@ -4,6 +4,32 @@ ul,ol{
 a{
     text-decoration: none;
 }
+/* banner */
+.book-now-button{
+    background-color: white;
+    color: #3F87F5;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+/* our package section */
+.radious-25{
+    border-radius: 25px;
+}
+.hot-product{
+    background-color: #3F87F5;
+    border-radius: 25px !important;
+}
+.package-button{
+    background-color: #E1C2D5;
+    border: 1px solid #E1C2D5;
+}
+.package-icon{
+    background-color: gainsboro;
+    border-radius: 50%;
+    padding: 3px;
+}
 /* footer */
 .button-footer{
     border: 1px solid white;
