@@ -1,3 +1,28 @@
 ul,ol{
     list-style: none;
 }
+a{
+    text-decoration: none;
+}
+/* footer */
+.button-footer{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 3px 10px;
+    background-color: black;
+    color: white;
+}
+.button-footer:hover{
+    color: white;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    gap:2px
+}
+.font-9{
+    font-size: 10px;
+}
+.line-height{
+    line-height: 10px;
+}
