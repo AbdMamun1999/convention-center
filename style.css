@@ -53,6 +53,16 @@ a{
 .line-height{
     line-height: 10px;
 }
+/* Toast section */
+.toast-main{
+    position: fixed;
+    right: 0;
+    bottom:0;
+}
+.ps-relative{
+    position: relative;
+}
+
 /* Media Query */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 576px) {
@@ -74,4 +84,7 @@ a{
     .banner-img{
         height: 80vh;
     }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    
 }
