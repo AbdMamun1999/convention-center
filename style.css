@@ -56,8 +56,19 @@ a{
 /* Media Query */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 576px) {
+    /* Banner section */
     .banner-caption{
         font-size: 30px;
+        font-weight: 600;
+    }
+    .banner-img{
+        height: 80vh;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    /* Banner section */
+    .banner-caption{
+        font-size: 48px;
         font-weight: 600;
     }
     .banner-img{
