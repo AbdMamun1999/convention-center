@@ -12,6 +12,7 @@ a{
     padding: 10px 20px;
     border: 1px solid white;
     border-radius: 10px;
+    line-height: 70px;
 }
 /* our package section */
 .radious-25{
@@ -51,4 +52,15 @@ a{
 }
 .line-height{
     line-height: 10px;
+}
+/* Media Query */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+    .banner-caption{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .banner-img{
+        height: 80vh;
+    }
 }
